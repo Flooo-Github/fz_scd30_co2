@@ -10,6 +10,7 @@
 #include <furi_hal.h>
 
 // Assurez-vous que FuriHalRtcDateTime est déclaré dans furi_hal.h ou un autre fichier pertinent
+#include <furi_hal_rtc.h>
 
 struct SCD30Data {
     float co2_ppm;
